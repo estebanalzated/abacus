@@ -6,14 +6,17 @@ class Compute:
     def add(self):
         pass
     
-    def substract(self):
-        pass
+    def subtract(self):
+        difference = 0
+        for item in self.operands:
+            difference -= item
+        print(difference)
 
     def multiply(self):
-        sum = 1
+        product = 1
         for item in self.operands:
-            sum*=item
-        print(sum)
+            product*=item
+        print(product)
 
     def divide(self):
         pass
