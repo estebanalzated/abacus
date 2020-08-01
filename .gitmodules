@@ -1,0 +1,3 @@
+[submodule "builds/abacus-scripts"]
+	path = builds/abacus-scripts
+	url = git@github.com:estebanalzated/abacus-scripts.git
